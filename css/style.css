@@ -18,7 +18,6 @@
     transition: all 0.9s;
     z-index: 10;
    align-items: center;
-
 }
 
 
@@ -199,7 +198,6 @@
 @media only screen and (max-width: 500px) {
     .carousel-inner img {
         height: 230px;
-
     }
 }
 
@@ -227,8 +225,6 @@
     background-color: #84d9d9;
 }
 
-
-
 .mytabs .tab {
     width: 100%;
     background-color: #84d9d9;
@@ -250,8 +246,6 @@
 
 }
 
-
-
 /* .label:hover{
 background-color: #6c5ce7;
 } */
@@ -262,8 +256,6 @@ background-color: #6c5ce7;
     animation: move 5s infinite;
     
 }
-
-
 
 @keyframes move {
     0% {
@@ -285,7 +277,6 @@ background-color: #6c5ce7;
     height: 3px;
     background-color: red;
     transform: translateX(-50%);
-
 
 }
 
@@ -438,15 +429,11 @@ background-color: #6c5ce7;
 @keyframes move {
     0% {
         color: black;
-
     }
-
     100% {
         color: gold;
-
     }
 }
-
 
 .services_heading h3:after {
     content: "";
@@ -464,7 +451,6 @@ background-color: #6c5ce7;
     animation: left;
 }
 
-
 .services_content h {
     font-size: 25px;
 }
@@ -478,22 +464,18 @@ background-color: #6c5ce7;
     background-color: #b2bec3;
     box-shadow: 4px 4px 8px #b2bec3;
     transition: all 0.4s ease;
-
 }
 
 .box .box_icon {
     font-size: 35px;
     line-height: 1.5;
 
-
 }
-
 
 .services_page .box:hover {
     box-shadow: 7px 6px 11px #b2bec3;
     transform: translateY(-5px);
 }
-
 
 .parallax_container .box {
 
@@ -516,7 +498,6 @@ background-color: #6c5ce7;
     text-align: center;
     color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .parallax_container .box p {
@@ -538,10 +519,7 @@ background-color: #6c5ce7;
     }
 
 }
-    
-
-
-
+   
 .parallax_container .box input {
     width: 320px;
     height: 40px;
@@ -551,8 +529,6 @@ background-color: #6c5ce7;
     text-align: center;
     background-color: white;
 }
-
-
 
 .contact_page{
     display: flex;
@@ -566,7 +542,6 @@ background-color: #6c5ce7;
     background-attachment: fixed;
 } 
 
-
 .contact_page .contact_details{
     display: flex;
     flex-direction: column;
@@ -576,9 +551,7 @@ background-color: #6c5ce7;
     width: 100%;
     border: 1px solid lightblue;
     padding: 20px 0;
-   
 
-  
 }
 
 .contact_heading h3{
@@ -617,7 +590,6 @@ background-color: #6c5ce7;
     color: crimson;
 }
 
-
 .action_btn{
     /* border: 1px solid red; */
     width: 60%;
@@ -640,17 +612,12 @@ background-color: #6c5ce7;
     background-color: transparent;
     color: white;
 
-
 }
 
 .contact_details .action_btn input[type="reset"]{
     background-color: transparent;
     color: white;
-
-
-} 
-
-
+}
 .contact_details .action_btn input[type="submit"],input[type="reset"]:hover{
     background-color: white;
     color: black;
@@ -681,8 +648,6 @@ section.footer{
     font-size:21px;
     margin-bottom: 20px;
     position: relative;
-  
-    
 }
 
 .footer_title::before{
@@ -716,12 +681,10 @@ section.footer{
     color: wheat;
 }
 
-
 @media only screen and(max-width:372px){
 
 .logo{
     padding: 10px;
     font-size: 15px;
 }
-
 }
